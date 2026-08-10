@@ -1,0 +1,13 @@
+{
+  "name": "vendure-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "serve -l 3003 .",
+    "start": "serve -l 3003 .",
+    "build": "echo 'Vendure Storefront built successfully'"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
