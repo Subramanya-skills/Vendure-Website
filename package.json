@@ -3,11 +3,25 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "serve -l 3003 .",
-    "start": "serve -l 3003 .",
-    "build": "echo 'Vendure Storefront built successfully'"
+    "dev": "next dev -p 3003",
+    "build": "next build",
+    "start": "next start -p 3003"
+  },
+  "dependencies": {
+    "@prisma/client": "^7.8.0",
+    "lucide-react": "^1.25.0",
+    "motion": "^12.42.2",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
   },
   "devDependencies": {
-    "serve": "^14.2.4"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "prisma": "^7.8.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
